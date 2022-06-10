@@ -43,7 +43,7 @@ def show_ant_clockwise(root):
         if process:
             process = clockwise(root, level)
             level = level + 1 
-if _name_ == '_main_':
+if __name__ == '_main_':
     root = Node(10)
     root.left = Node(20)
     root.right = Node(30)
